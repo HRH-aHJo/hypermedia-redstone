@@ -1,0 +1,110 @@
+
+.container {
+	width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+.menuitem {
+	border: 2px solid black;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.mainitem {
+	border: 2px solid black;
+	margin-top: 15px;
+	text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.news {
+	background-color: #c4ffc9;
+}
+
+.weather {
+	background-color: #a6ffed;
+}
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+.selected {
+	background-color: #FFFFCC;
+}
+
+.trailtitle {
+	font-weight: bold;
+    font-size: 28px;
+}
+
+.trailcode {
+	font-weight: bold;
+}
+
+.hhwhere {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.aboutustitle {
+	font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

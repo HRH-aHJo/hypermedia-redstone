@@ -1,0 +1,177 @@
+.logo {
+	float: left;
+}
+.tollfree {
+	float: right;
+	margin-top: 25px;
+	margin-right: 35px;
+}
+.blue {
+	width: 100%;
+	background-color: #004990;
+	height: 20px;
+	float: left;
+	margin-top: 10px;
+}
+
+.sidebar li li a:before {
+	content: "\2023";
+	color : rgba(92,61,31,0.75);
+}	
+.sidebar {
+	width: 200px;
+	float: left;
+}
+.sidebar ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.sidebar a
+{
+	display: block;
+	border: 3px solid #004990;
+	color: #000;
+	width: 9em;
+	padding: 3px 12px 3px 8px;
+	text-decoration: none;
+	font-weight: bold;
+    width: 178px;
+}
+
+.sidebar a:hover
+{
+	background-color: #369;
+	color: #FFF;
+}
+
+.sidebar li li a
+{
+	border: 0px solid #004990;
+	display: block;
+	color: #FFF;
+	width: 9em;
+	padding: 3px 3px 3px 17px;
+	text-decoration: none;
+	font-weight: normal;
+	background-color: rgba(0,73,144,0.65);
+	width: 184px;
+}
+
+
+.maincontent {
+	width: 820px;
+	float: left;
+	margin-left: 4px;
+}
+.maincontent a {
+	text-decoration: none;
+}
+.homepagepic {
+	width: 820px;
+	height: 250px;
+	background-repeat: no-repeat;
+}
+.homepagetitle {
+	width: 100%;
+	color: white;
+	font-size: 26px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 35px;
+    padding-left: 35px;
+}
+.footer {
+	width: 100%;
+	background-color: #004990;
+	height: 75px;
+	float: left;
+}
+.footer div {
+	font-size: 14px;
+	color: white;
+	float: right;
+	margin-right: 50px;
+	line-height: 75px;
+	height: 75px;
+}
+
+.pagecontent {
+	padding: 20px;
+    font-size: 18px;
+    min-height: 400px;
+    width: 100%;
+    float: left;
+}
+.active {
+	font-weight: bold !important;
+}
+
+.category {
+	float: left;
+	margin-left: 80px;
+}
+.othertitle {
+	width: 100%;
+	color: black;
+	font-size: 26px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 35px;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+
+.cattext {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+.devicename {
+	vertical-align: top;
+	padding-top:35px;
+	width:450px
+}
+.device .price {
+	color:#FF0000;
+	font-size:28px;
+	font-weight:bold
+}
+.device button {
+	font-size: 16px;
+    width: 100px;
+    height: 40px;
+    margin-top: 35px;
+}
+
+.promo {
+	background-color: #FFCC00;
+	color: #3333FF;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.highlight {
+	background-color: #FFCC00;
+	color: #3333FF;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.pagecontentex {
+	padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    float: left;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
